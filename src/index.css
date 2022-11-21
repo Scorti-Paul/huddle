@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;700&display=swap');
+
+
+@layer base {
+  body {
+    @apply w-full
+  }
+
+  h1 {
+    @apply font-['Poppins'] font-extrabold text-2xl text-veryDarkCyan text-center mb-4
+  }
+
+  p {
+    @apply font-['Poppins'] text-center text-lg text-veryDarkCyan
+  }
+}
